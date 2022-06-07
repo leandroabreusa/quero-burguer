@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Nunito, sans-serif;
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 5px solid #adadad;
+}
+
+.menu-items {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.logo {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: azure;
+    width: 30%;
+}
+
+.list-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    list-style-type: none;
+    overflow: hidden;
+    color: azure;
+}
+
+.list-links li {
+    display: inline-block;
+    width: 50px;
+}
+
+.react-icons {
+    width: 35px;
+    height: 35px;
+}
+
+
